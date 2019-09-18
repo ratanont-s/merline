@@ -1,0 +1,33 @@
+section {
+    @include media-breakpoint-up(xl) {
+        .sec-title {
+            h1 {
+                font-size: 50px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+#sec1 {
+    min-height: 100vh;
+    padding-top: 100px;
+    background: url('../images/bg-sec1.png') no-repeat center bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    @include media-breakpoint-up(xl) {
+        h1 {
+            font-style: 80px;
+        }
+
+        p {
+            font-size: 30px;
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+// Color system
+$aqua: #39BDCA;
+$orange: #FCC26C;
+$salmon: #FF7B7B;
+$brown: #703619;
+$sky: #4DC8FF;
+$yellow: #FFD542;
+
+$theme-colors: ("aqua": $aqua,
+    "orange": $orange,
+    "salmon": $salmon,
+    "brown": $brown,
+    "sky": $sky,
+    "yellow": $yellow,
+);
+
+// Buttons
+$btn-border-radius: 10rem;
+$btn-border-radius-lg: $btn-border-radius;
+$btn-border-radius-sm: $btn-border-radius;
+$btn-padding-x: 1.5rem;
+$btn-padding-x-lg: $btn-padding-x;
+$btn-padding-x-sm: $btn-padding-x;
+
+// Slick
+$slick-font-path: "../fonts/";
+$slick-loader-path: "../images/";
+
+// Form
+$input-border-radius: 22px;
+
+// Fonts
+$font-family-base: "Gotham Rounded";
+$headings-font-weight: 600;
+$enable-responsive-font-sizes: true;

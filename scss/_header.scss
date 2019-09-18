@@ -1,0 +1,25 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: $zindex-fixed;
+
+    .navbar {
+        &-brand {
+            img {
+                @include media-breakpoint-down(md) {
+                    height: 40px;
+                }
+            }
+        }
+
+        .nav {
+            &-link {
+                @include media-breakpoint-down(md) {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
