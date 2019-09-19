@@ -5,4 +5,7 @@ footer {
     display: flex;
     align-items: flex-end;
     padding-top: 2.5rem;
+    >.container-fluid{
+        max-width: 1440px;
+    }
 }

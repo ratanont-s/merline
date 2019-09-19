@@ -25,6 +25,7 @@ $btn-padding-x-sm: $btn-padding-x;
 // Slick
 $slick-font-path: "../fonts/";
 $slick-loader-path: "../images/";
+$slick-dot-size: 1rem;
 
 // Form
 $input-border-radius: 22px;
@@ -33,3 +34,6 @@ $input-border-radius: 22px;
 $font-family-base: "Gotham Rounded";
 $headings-font-weight: 600;
 $enable-responsive-font-sizes: true;
+
+// Links
+$link-hover-decoration: none;
