@@ -10,3 +10,13 @@
 @import './header';
 @import './footer';
 @import './landing';
+
+body {
+    position: relative;
+    background: $body-bg url('../images/bg-body.png') no-repeat center top 100vh;
+    background-size: cover;
+
+    @include media-breakpoint-up(lg) {
+        background-size: 100% auto;
+    }
+}
