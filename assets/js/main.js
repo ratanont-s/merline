@@ -1,6 +1,8 @@
 $(function () {
     // Smooth scrolling
     $("#navbarSupportedContent a.nav-link").on('click', function (event) {
+        $('#navbarSupportedContent').collapse('hide');
+
         var target = this.hash,
             $target = $(target);
 
